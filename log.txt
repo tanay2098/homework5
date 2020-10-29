@@ -1,0 +1,3 @@
+Bad score value for Bob, ignored.
+Bad score value for Eric, ignored.
+The class average is 79 for 3 students.
