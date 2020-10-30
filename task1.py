@@ -5,8 +5,8 @@ avg=0       #variable to store average score
 score_list=[] # list to store score values
 READ_FILE='scores.txt' 
 WRITE_FILE='log.txt'
-read_mode='r'
-write_mode='w'
+read_mode='r'#reading mode
+write_mode='w'#writing mode
 
 try:
         score=open(READ_FILE,read_mode)# opening scores.txt
