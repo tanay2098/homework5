@@ -1,3 +1,4 @@
+import sys
 records=0
 sum_score=0
 avg=0
@@ -17,7 +18,7 @@ try:
                                 score_list.append(int(score))
                         except ValueError as error:
                                 log.write(f'Bad score value for {name}, ignored.\n')
-                                print(f'Bad score value for {name}, ignored.\n')
+                                print(f'Bad score value for {name}, ignored.')
                         else:
                                 records+=1
                 avg=int(sum(score_list)/len(score_list))
@@ -28,5 +29,6 @@ try:
 
 except OSError as error:
         print('Unable to open',READ_FILE,'.Error Message:',error)
+        sys.exit(0)
 
 
