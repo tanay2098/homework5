@@ -1,5 +1,5 @@
 import sys #importing sys module
-from collections import Counter #importing unordered 
+from collections import Counter #importing Counter from collections module
 
 READ_FILE='book.txt'
 WRITE_FILE='summary.txt'
