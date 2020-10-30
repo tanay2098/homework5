@@ -1,0 +1,15 @@
+A 5
+E 3
+G 1
+H 1
+I 3
+L 1
+M 2
+N 2
+O 1
+P 1
+S 1
+T 5
+W 2
+Y 3
+It doesnot have all letters
